@@ -1,0 +1,62 @@
+{
+  "version": "1.0.0",
+  "applications": [
+    {
+      "name": "Memed",
+      "homepageUrl": "https://memed.com.br",
+      "logoUrl": "https://memed.com.br/resources/img/icons/logo_memed_50_50.png",
+      "prescription": {
+        "identifiers": [
+          {
+            "char": {
+              "type": "alphanumeric",
+              "valid": "qwertyuiopasdfghjkzxcvbnm1234567890QWERTYUOPASDFGHJKLZXCVBNM"
+            },
+            "length": {
+              "min": 7,
+              "max": 7
+            }
+          },
+          {
+            "char": {
+              "type": "alphanumeric",
+              "valid": "qwertyuiopasdfghjkzxcvbnm1234567890QWERTYUOPASDFGHJKLZXCVBNM"
+            },
+            "length": {
+              "min": 9,
+              "max": 9
+            },
+            "prefix": "MD"
+          }
+        ]
+      },
+      "dispense": {
+        "homepageUrl": "https://farmacia.memed.com.br",
+        "prescriptionUrl": "https://memed.com.br/receita/$PRESCRIPTION_IDENTIFIER"
+      }
+    },
+    {
+      "name": "Nexodata",
+      "homepageUrl": "https://nexodata.com.br",
+      "logoUrl": "https://nexodata.com.br/apple-touch-icon.png",
+      "prescription": {
+        "identifiers": [
+          {
+            "char": {
+              "type": "alphanumeric"
+            },
+            "length": {
+              "min": 7,
+              "max": 7
+            },
+            "prefix": "NX"
+          }
+        ]
+      },
+      "dispense": {
+        "homepageUrl": "https://farmacias.nexodata.com.br",
+        "prescriptionUrl": "https://farmacias.nexodata.com.br/prescricao/$PRESCRIPTION_IDENTIFIER"
+      }
+    }
+  ]
+}
