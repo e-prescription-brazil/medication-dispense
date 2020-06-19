@@ -32,7 +32,7 @@
       },
       "dispense": {
         "homepageUrl": "https://farmacia.memed.com.br",
-        "prescriptionUrl": "https://memed.com.br/receita/$PRESCRIPTION_IDENTIFIER&utm_source=?your_application_name"
+        "prescriptionUrl": "https://memed.com.br/receita/$PRESCRIPTION_IDENTIFIER?utm_source=your_application_name"
       }
     },
     {
@@ -55,7 +55,7 @@
       },
       "dispense": {
         "homepageUrl": "https://farmacias.nexodata.com.br",
-        "prescriptionUrl": "https://farmacias.nexodata.com.br/prescricao/$PRESCRIPTION_IDENTIFIER?utm_source=$your_application_name"
+        "prescriptionUrl": "https://farmacias.nexodata.com.br/prescricao/$PRESCRIPTION_IDENTIFIER?utm_source=your_application_name"
       }
     }
   ]
