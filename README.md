@@ -30,7 +30,7 @@ O arquivo [applications.json](applications.json) segue as regras definidas em [a
 
 ## Origem do redicionamento
 
-O valor do parâmetro *utm_source* deve ser o nome de sua aplicação, em letras minúsculas. Leva-se em conta o padrão de variáveis [Urchin Tracking Module](https://github.com/user/repo/blob/branch/other_file.md).
+O valor do parâmetro *utm_source* deve ser o nome de sua aplicação, em letras minúsculas. Leva-se em conta o padrão de variáveis [Urchin Tracking Module](https://en.wikipedia.org/wiki/UTM_parameters).
 
 ## Prefixos
 
