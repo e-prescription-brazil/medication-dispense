@@ -3,6 +3,7 @@
   "applications": [
     {
       "name": "Memed",
+      "slug": "memed",
       "homepageUrl": "https://memed.com.br",
       "logoUrl": "https://memed.com.br/resources/img/icons/logo_memed_50_50.png",
       "prescription": {
@@ -32,11 +33,12 @@
       },
       "dispense": {
         "homepageUrl": "https://farmacia.memed.com.br",
-        "prescriptionUrl": "https://memed.com.br/receita/$PRESCRIPTION_IDENTIFIER?utm_source=your_application_name"
+        "prescriptionUrl": "https://memed.com.br/receita/$PRESCRIPTION_IDENTIFIER?utm_source=$YOUR_APPLICATION_SLUG"
       }
     },
     {
       "name": "Nexodata",
+      "slug": "nexodata",
       "homepageUrl": "https://nexodata.com.br",
       "logoUrl": "https://nexodata.com.br/apple-touch-icon.png",
       "prescription": {
@@ -55,7 +57,7 @@
       },
       "dispense": {
         "homepageUrl": "https://farmacias.nexodata.com.br",
-        "prescriptionUrl": "https://farmacias.nexodata.com.br/prescricao/$PRESCRIPTION_IDENTIFIER?utm_source=your_application_name"
+        "prescriptionUrl": "https://farmacias.nexodata.com.br/prescricao/$PRESCRIPTION_IDENTIFIER?utm_source=$YOUR_APPLICATION_SLUG"
       }
     }
   ]
