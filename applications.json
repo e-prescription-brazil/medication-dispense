@@ -14,8 +14,8 @@
               "valid": "qwertyuiopasdfghjkzxcvbnm1234567890QWERTYUOPASDFGHJKLZXCVBNM"
             },
             "length": {
-              "min": 7,
-              "max": 7
+              "min": 6,
+              "max": 6
             }
           },
           {
@@ -24,8 +24,8 @@
               "valid": "qwertyuiopasdfghjkzxcvbnm1234567890QWERTYUOPASDFGHJKLZXCVBNM"
             },
             "length": {
-              "min": 9,
-              "max": 9
+              "min": 8,
+              "max": 8
             },
             "prefix": "MD"
           }
