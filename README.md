@@ -7,6 +7,10 @@ Projeto para listar os aplicativos de dispensação de medicamentos do Brasil e 
 - Inclua o repositório no gerenciador de dependências do seu projeto
 - Consuma o arquivo [applications.json](applications.json), o qual contém a lista de aplicativos e seus padrões
 
+## Exemplos
+
+- [Página de exemplo](https://e-prescription-brazil.github.io/medication-dispense-example/), a qual redireciona para o dispensador correto com base no padrão do identificador digitado.
+
 ## JSON Schema
 
 O arquivo [applications.json](applications.json) segue as regras definidas em [applications.schema.json](applications.schema.json).
