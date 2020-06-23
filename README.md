@@ -30,7 +30,11 @@ O arquivo [applications.json](applications.json) segue as regras definidas em [a
 
 ## Origem do redicionamento
 
-O valor do parâmetro *utm_source* deve ser o nome de sua aplicação, em letras minúsculas. Leva-se em conta o padrão de variáveis [Urchin Tracking Module](https://en.wikipedia.org/wiki/UTM_parameters).
+Algumas URLs presentes no JSON terão em sua query string o parâmetro *utm_source*, que ajudará os responsáveis dos aplicativos a identificarem a origem do tráfego e possibilitará futuras customizações.
+
+O valor do parâmetro *utm_source* deve ser o slug de sua aplicação. Leva-se em conta o padrão de variáveis [Urchin Tracking Module](https://en.wikipedia.org/wiki/UTM_parameters).
+
+Exemplo: `https://memed.com.br/receita/MD123456?utm_source=nexodata`
 
 ## Prefixos
 

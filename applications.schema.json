@@ -36,7 +36,7 @@
           },
           "slug": {
             "description": "slug-do-aplicativo",
-              "type": "string"
+            "type": "string"
           },
           "homepageUrl": {
             "description": "URL do website do aplicativo",
@@ -129,7 +129,7 @@
                 "format": "uri"
               },
               "prescriptionUrl": {
-                "description": "URL para dispensar uma determinada prescrição. Deve apresentar o coringa $PRESCRIPTION_IDENTIFIER, que será substituído pelo identificador da prescrição",
+                "description": "URL para dispensar uma determinada prescrição. Deve apresentar o coringa $PRESCRIPTION_IDENTIFIER, que será substituído pelo identificador da prescrição. Pode apresentar o coringa $YOUR_APPLICATION_SLUG, que deve ser substituido pelo slug do aplicativo que está renderizando o link",
                 "type": "string",
                 "format": "uri"
               }
