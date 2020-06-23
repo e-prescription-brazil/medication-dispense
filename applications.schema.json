@@ -15,6 +15,7 @@
     },
     "applications": {
       "description": "Lista de aplicativos",
+      
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
@@ -22,6 +23,7 @@
         "type": "object",
         "required": [
           "name",
+          "slug",
           "homepageUrl",
           "logoUrl",
           "prescription",
@@ -31,6 +33,10 @@
           "name": {
             "description": "Nome do aplicativo",
             "type": "string"
+          },
+          "slug": {
+            "description": "slug-do-aplicativo",
+              "type": "string"
           },
           "homepageUrl": {
             "description": "URL do website do aplicativo",

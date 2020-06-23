@@ -27,6 +27,11 @@ O arquivo [applications.json](applications.json) segue as regras definidas em [a
 |**applications[].dispense.homepageUrl**|`string`|URL do site de dispensação de medicamentos.|:white_check_mark:|
 |**applications[].dispense.prescriptionUrl**|`string`|URL da página de dispensação de uma prescrição. Deve conter o coringa $PRESCRIPTION_IDENTIFIER, que será substituido pelo identificador da prescrição|:white_check_mark:|
 
+
+## Origem do redicionamento
+
+O valor do parâmetro *utm_source* deve ser o nome de sua aplicação, em letras minúsculas. Leva-se em conta o padrão de variáveis [Urchin Tracking Module](https://en.wikipedia.org/wiki/UTM_parameters).
+
 ## Prefixos
 
 Como forma de facilitar a padronização dos identificadores de prescrição, esse projeto, apesar de aceitar qualquer padrão, propõe o uso de prefixos de 2 letras. Abaixo, uma lista dos prefixos já reservados.
