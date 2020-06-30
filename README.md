@@ -48,6 +48,7 @@ Como forma de facilitar a padronização dos identificadores de prescrição, es
 |---|----|
 |Memed|MD|
 |Nexodata|NX|
+|Doutor Prescreve|DP|
 
 > Quer reservar um prefixo para sua empresa? Abra um PR modificando a tabela acima.
 
